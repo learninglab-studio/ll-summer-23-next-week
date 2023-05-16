@@ -9,8 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "airtable": "^0.11.6",
+    "debug": "^4.3.4",
     "next": "13.4.2",
+    "openai": "^3.2.1",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "supports-color": "^9.3.1"
   }
 }
