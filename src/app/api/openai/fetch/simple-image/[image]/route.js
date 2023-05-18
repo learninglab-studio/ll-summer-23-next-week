@@ -2,8 +2,6 @@ import addRecord from "@/utils/airtable/add-record";
 import longTimestamp from "@/utils/time/long-timestamp";
 import { NextResponse } from "next/server"
 
-
-
 export async function GET(req, context) {
     const apiKey = process.env.OPENAI_API_KEY;
     const apiUrl = 'https://api.openai.com/v1/images/generations';
